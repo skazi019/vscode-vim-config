@@ -1,0 +1,89 @@
+{
+    "git.autofetch": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "git.confirmSync": false,
+    "editor.overtypeCursorStyle": "line",
+    "dart.flutterSdkPath": "/Users/kaushal/flutter/flutter",
+    "mdb.mcp.server": "prompt",
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "redhat.telemetry.enabled": false,
+    "python.analysis.typeCheckingMode": "standard",
+    "docker.extension.enableComposeLanguageServer": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+
+    "vim.leader": " ",
+    "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.smartRelativeLine": true,
+
+    "vim.handleKeys": {
+        "<C-k>": false,
+        "<C-j>": false
+    },
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+        "before": ["<leader>", "e", "b"],
+        "commands": ["workbench.action.toggleSidebarVisibility"]
+        },
+        {
+        "before": ["<leader>", "e"],
+        "commands": ["workbench.files.action.focusFilesExplorer"]
+        },
+        {
+        "before": ["<leader>", "e", "n"],
+        "commands": ["explorer.newFile"]
+        },
+        {
+        "before": ["<leader>", "e", "N"],
+        "commands": ["explorer.newFolder"]
+        },
+        {
+        "before": ["<leader>", "e", "d"],
+        "commands": ["deleteFile"]
+        },
+        {
+        "before": ["K"],
+        "commands": ["editor.action.showHover"]
+        },
+        {
+        "before": ["<leader>", "f", "f"],
+        "commands": ["periscope.searchFiles"]
+        },
+        {
+        "before": ["<leader>", "f", "t"],
+        "commands": ["periscope.search"]
+        },
+        {
+        "before": ["H"],
+        "commands": ["workbench.action.previousEditor"]
+        },
+        {
+        "before": ["L"],
+        "commands": ["workbench.action.nextEditor"]
+        },
+        {
+        "before": [ "<leader>", "x"],
+        "commands": ["workbench.action.closeActiveEditor"]
+        }
+    ],
+    "workbench.colorTheme": "Quiet Light",
+}
